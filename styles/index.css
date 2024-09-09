@@ -1,0 +1,65 @@
+@import "./base.css";
+
+/* @font-face {
+    font-family: InterBold;
+    src: url(../fonts/Inter_24pt-Regular.ttf)
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(../fonts/Inter_24pt-Bold.ttf)
+} */
+
+/* body {
+    background-color: var(--color-primary);
+    color: var(--color-text-on-primary);
+    font-family: var(--font-family);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+} */
+
+/* ^ moved to base.css */
+
+/* .main__heading {
+    font-size: 128px;
+    font-weight: bold;
+}
+
+.main__subheading {
+    font-size: 40px;
+} */
+
+.home .main__heading {
+    font-size: 128px;
+    font-weight: bold;
+}
+
+.home .main__subheading {
+    font-size: 40px;
+}
+
+@media (max-width: 1220px) {
+    .home .main__heading {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 590px) {
+    .home .main__heading {
+        font-size: 40px;
+    }
+    .home .main__subheading {
+        font-size: 24px;
+    }
+}
+
+.home .menu path {
+    fill: var(--color-text-on-primary);
+}
+
+.home .close path{
+    fill: var(--color-text-on-primary);
+}
